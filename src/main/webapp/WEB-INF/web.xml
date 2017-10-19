@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>pe.edu.ulima.EnviarServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>RegContacto</servlet-name>
+  	<display-name>RegContacto</display-name>
+  	<description></description>
+  	<servlet-class>pe.edu.ulima.servlets.RegContacto</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>DateServlet</servlet-name>
   	<url-pattern>/date</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>EnviarServlet</servlet-name>
   	<url-pattern>/enviar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegContacto</servlet-name>
+  	<url-pattern>/regcontacto</url-pattern>
   </servlet-mapping>
 </web-app>

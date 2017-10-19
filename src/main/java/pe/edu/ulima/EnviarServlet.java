@@ -36,7 +36,7 @@ public class EnviarServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		String nombre= request.getParameter("nombre");
-		String apellidos= request.getParameter("apellidos");
+		String paterno= request.getParameter("paterno");
 		PrintWriter page = response.getWriter();
 		page.println(
 				"<html>" + 
@@ -45,7 +45,7 @@ public class EnviarServlet extends HttpServlet {
 				"</head>" + 
 				"<body>" +
 				    "<h1> Sample 1</h1>" +
-				    nombre + "<br>" + apellidos +
+				    nombre + "<br>" + paterno +
 				"</body>" +
 				"</html>"
 			);

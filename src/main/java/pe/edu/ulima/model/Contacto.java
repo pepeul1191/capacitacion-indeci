@@ -9,6 +9,10 @@ public class Contacto implements Serializable{
 	private String materno;
 	private String email;
 	
+	public Contacto() {
+		super();
+	}
+	
 	public Contacto(Long dni, String nombre, String paterno, String materno, String email) {
 		super();
 		this.dni = dni;
@@ -56,5 +60,11 @@ public class Contacto implements Serializable{
 	
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "Contacto [dni=" + dni + ", nombre=" + nombre + ", paterno=" + paterno + ", materno=" + materno
+				+ ", email=" + email + "]";
 	}
 }

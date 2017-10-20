@@ -1,4 +1,4 @@
-package pe.edu.ulima;
+package pe.edu.ulima.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;

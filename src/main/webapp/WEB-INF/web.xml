@@ -8,13 +8,13 @@
   	<servlet-name>DateServlet</servlet-name>
   	<display-name>DateServlet</display-name>
   	<description></description>
-  	<servlet-class>pe.edu.ulima.DateServlet</servlet-class>
+  	<servlet-class>pe.edu.ulima.servlets.DateServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>EnviarServlet</servlet-name>
   	<display-name>EnviarServlet</display-name>
   	<description></description>
-  	<servlet-class>pe.edu.ulima.EnviarServlet</servlet-class>
+  	<servlet-class>pe.edu.ulima.servlets.EnviarServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>RegContacto</servlet-name>
